@@ -8,7 +8,7 @@ import {
 export class HttpBinApi implements ICredentialType {
 	name = 'httpbinApi';
 	displayName = 'HttpBin API';
-	documentationUrl = '<your-docs-url>';
+	documentationUrl = 'https://github.com/hanqyu/n8n-nodes-notion-select-api';
 	properties: INodeProperties[] = [
 		{
 			displayName: 'Token',
